@@ -27,3 +27,7 @@ figures/results/*
 
 # ---- Logs ----
 *.log
+
+
+# ---- Virtual Environments ----
+.venv/
