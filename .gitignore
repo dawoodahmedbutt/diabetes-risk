@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Data (raw may be large) ----
+data/raw/*
+!data/raw/.gitkeep
+
+# ---- Outputs ----
+figures/results/*
+!figures/results/.gitkeep
+
+# ---- Logs ----
+*.log
